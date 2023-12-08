@@ -1,0 +1,202 @@
+body {
+    height: 100%;
+}
+.header{
+    height: 810px;
+    background-image: url(image/header/photo-1433354359170-23a4ae7338c6.jpg);
+    background-image: cover;
+}
+.Header_H1{
+    margin: 0;
+    text-align: center;
+    padding-top: 225px;
+    font-family: 'Exo', sans-serif;
+}
+.Header_Try_Now{
+    background-color: #ff6d6d;
+    text-align: center;
+    height:50px;
+    width:190px;
+    margin-left: 625px;
+}
+.Header_Try_Now_Text{
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    padding-top: 17px;
+}
+.header_text{
+    font-family: 'Exo', sans-serif;
+    text-align: center; 
+    color: #868789; 
+    margin-top: 19px;
+}
+.selection_1{
+    height: 495px;
+    background-color: white;
+}
+.selection_1_text1{
+    color:#ff6d6d;
+    margin-top: 191px;
+    font-family: 'Exo', sans-serif;
+    margin-left:150px;
+    font-size:16px;
+    font-weight:bold;
+}
+.selection_1_text2{
+    color:black;
+    font-family: 'Exo', sans-serif;
+    margin-left:150px;
+    font-weight:bold;
+    font-size: 50px;
+    margin-top: 25px;
+}
+.selection_1_text3{
+    color:#ff6d6d;
+    font-family: 'Exo', sans-serif;
+    margin-left:150px;
+    font-size:16px;
+    font-weight:bold; 
+}
+.selection_1_text4{
+    color:black;
+    font-family: 'Exo', sans-serif;
+    margin-left:150px;
+    font-weight:bold;
+    font-size:16px;
+}
+.selection_1_picture{
+    height:722px;
+    width:568px;
+    margin-left: 120px;
+    margin-top: 100px;
+} 
+.selection_2{
+    height: 674px;
+    background-color: chartreuse;
+}
+.descpritions{
+    height: 550px;
+}
+.descriptions_image{
+    width:602px;
+    height: 411px;
+    margin-left: 71px;
+    margin-top:97px;
+}
+.descriptions_text_1{
+    color:#ff6d6d;
+    font-size:30px;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold; 
+
+}
+.descriptions_text_2{
+    font-size:40px;
+    font-family: 'Exo', sans-serif;
+    margin-top:0px;
+    font-weight:bold; 
+}
+.descriptions_text_3{
+    font-size:16px;
+    font-family: 'Exo', sans-serif;
+    margin-top:0px;
+    font-weight:bold; 
+}
+.browser{
+    height: 759px;
+}
+.browser_text_1{
+    color:#ff6d6d;
+    font-size:30px;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold; 
+    text-align: center;
+    margin-top: 108px;
+}
+.browser_text_2{
+    font-size:40px;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold; 
+    text-align: center;
+}
+.browser_text_3{
+    font-size:20px;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold; 
+    text-align: center;
+}
+.browser_image{
+    margin-top: 112px;
+    margin-left: 323px;
+}
+.clients{ 
+    height: 648px;
+    background-image: url(image/clients/Rectangle\ 26.png);
+}
+.clients_table_1{
+    width:100%;
+}
+.clients_image{
+    width:130px;
+    height:130px;
+    margin-left:175px;
+    margin-top:50px;
+    margin-bottom:0px;
+}
+.clients_text_1{
+    color:white;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold; 
+}
+.clients_text_2{
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold; 
+    color:#ff6d6d;
+    padding-top:20px;
+} 
+.clients_text_3{
+    color:white;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold; 
+}
+.spotify{
+    height:100px;
+    width:100px;
+    margin-left:100px;
+    margin-top:50px;
+}
+.twitter{
+    height:100px;
+    width:100px;
+    margin-left:100px;
+    margin-top:50px;
+}
+.google{
+    height:100px;
+    width:100px;
+    margin-left:100px;
+    margin-top:50px;
+}
+.supreme{
+    width:300px;
+    height:100px;
+    margin-left:100px;
+    margin-top:50px;
+}
+.netflix{
+    width:250px;
+    height:100px;
+    margin-left:100px;
+    margin-top:50px;
+}
+.try_now{
+    height: 467px;
+    background-color: darkorange;
+}
+.footer{
+    height: 334px;
+}
