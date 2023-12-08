@@ -169,10 +169,10 @@ body {
     margin-left:100px;
     margin-top:50px;
 }
-.twitter{
-    height:100px;
-    width:100px;
-    margin-left:100px;
+.EA{
+    height:80px;
+    width:180px;
+    margin-left:50px;
     margin-top:50px;
 }
 .google{
@@ -181,7 +181,7 @@ body {
     margin-left:100px;
     margin-top:50px;
 }
-.supreme{
+.Canon{
     width:300px;
     height:100px;
     margin-left:100px;
@@ -195,8 +195,48 @@ body {
 }
 .try_now{
     height: 467px;
-    background-color: darkorange;
+    background-color:#323969;
 }
 .footer{
     height: 334px;
+}
+.try_now_text1{
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold; 
+    color:#ff6d6d;
+    padding-top:85px;
+}
+.try_now_text2 {
+    color:white;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold;  
+    font-size: 45px;
+    margin-top:0px;
+}
+.input_FULL_NAME {
+    margin-left: 150px;
+}
+.input_EMAIL {
+    margin-left: 150px;
+}
+.input_PASSWORD {
+    margin-left: 150px;
+}
+.try_now_button {
+    background-color:#ff6d6d;
+    font-family: 'Exo', sans-serif;
+    margin-left:150px;
+    font-size:13px;
+    font-weight:bold;  
+    color:white;
+    width: 180px;
+}
+.try_now_text3{
+    color:#a8aabc;
+    font-family: 'Exo', sans-serif;
+    font-weight:bold;  
+    text-align: center;
+    margin-top: 50px;
 }
