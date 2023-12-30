@@ -18,18 +18,21 @@ body {
     height:50px;
     width:190px;
     margin-left: 625px;
+    font-weight: 900;
 }
 .Header_Try_Now_Text{
     text-align: center;
     font-family: 'Exo', sans-serif;
     color:white;
     padding-top: 17px;
+    font-weight: 900;
 }
 .header_text{
     font-family: 'Exo', sans-serif;
     text-align: center; 
     color: #868789; 
     margin-top: 19px;
+    font-weight: 900;
 }
 .selection_1{
     height: 495px;
@@ -73,10 +76,25 @@ body {
 } 
 .selection_2{
     height: 674px;
-    background-color: chartreuse;
+    background-color: white;
+}
+.selection_2_text1{
+    text-align: center;
+    color:#ff6d6d;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
+}
+.selection_2_text2{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
 }
 .descpritions{
     height: 550px;
+
 }
 .descriptions_image{
     width:602px;
@@ -239,4 +257,39 @@ body {
     font-weight:bold;  
     text-align: center;
     margin-top: 50px;
+}
+.coffee_cup{
+    margin-top: 500px;
+    margin-left: 1200px;
+}
+.earphones{
+    margin-left: 1200px;
+    margin-top: -760px;
+}
+.pen_holder{
+    margin-top: -260px;
+}
+.section_2_picture_1{
+    margin-left: 270px;
+}
+.section_2_picture_2{
+    margin-left: 270px;
+}
+.section_2_picture_3{
+    margin-left: 270px;
+}
+.section_2_text_1{
+    font-family: 'Exo', sans-serif;
+    font-weight:900;  
+    text-align: center;
+    margin-left: 150px;
+}
+.section_2_text_2{
+    font-family: 'Exo', sans-serif;
+    font-weight:500;  
+    text-align: center;
+    margin-left: 150px;
+}
+.table_section_2{
+    margin-top: -60px;
 }
