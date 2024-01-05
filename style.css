@@ -293,3 +293,39 @@ body {
 .table_section_2{
     margin-top: -60px;
 }
+.footer_image_1{
+    margin-top:85px;
+    margin-left:158px;
+}
+.footer_text_1{
+    font-family: 'exo', sans-serif;
+    font-weight: 900;
+    margin-left:158px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.footer_text_2{
+    font-family: 'exo', sans-serif;
+    font-weight: 900;
+    margin-left:158px;
+    font-size: 28px;
+    margin-top: 75px;
+}
+.footer_input_1{
+    border: 0px solid ;
+    background-color: #f6f6f6;
+    height: 49px;
+    width: 213px;
+    margin-left: 155px;
+    margin-top: -20px;
+}
+.footer_text_3{
+    font-family: 'exo', sans-serif;
+    font-weight: 900;
+    margin-left:158px;
+    font-size: 28px;
+    margin-top: 75px;
+}
+.footer_image_2{
+    margin-left: 100px;
+}
