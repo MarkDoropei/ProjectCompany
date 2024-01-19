@@ -294,20 +294,20 @@ body {
     margin-top: -60px;
 }
 .footer_image_1{
-    margin-top:85px;
-    margin-left:158px;
+    margin-top:75px;
+    margin-left:175px;
 }
 .footer_text_1{
     font-family: 'exo', sans-serif;
     font-weight: 900;
-    margin-left:158px;
+    margin-left:175px;
     font-size: 14px;
     margin-top: 0px;
 }
 .footer_text_2{
     font-family: 'exo', sans-serif;
     font-weight: 900;
-    margin-left:158px;
+    margin-left:175px;
     font-size: 28px;
     margin-top: 75px;
 }
@@ -316,7 +316,7 @@ body {
     background-color: #f6f6f6;
     height: 49px;
     width: 213px;
-    margin-left: 155px;
+    margin-left: 170px;
     margin-top: -20px;
 }
 .footer_text_3{
@@ -327,5 +327,9 @@ body {
     margin-top: 75px;
 }
 .footer_image_2{
-    margin-left: 100px;
+    margin-left: 30px;
 }
+.footer_image_3{
+    margin-left: 170px;
+}
+
