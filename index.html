@@ -13,7 +13,7 @@
 <body>
     <div class="menu"> 
         <nav>
-            <ul>
+            <ul class="menu-bar">
                 <li><a href="#header">header</a></li>
                 <li><a href="#section_1">section_1</a></li>
                 <li><a href="#section_2">section_2</a></li>
@@ -22,6 +22,12 @@
                 <li><a href="#browser">browser</a></li>
                 <li><a href="#try_now">try_now</a></li>
                 <li><a href="#footer">footer</a></li>
+                <form action="login.html"  method="get" > 
+                    <button class="btn">Enter</button>
+                </form>
+                <form action="register.html" method="get"> 
+                    <button class="btn">Registration</button>
+                </form>
             </ul>
         </nav>
     </div>
@@ -116,25 +122,25 @@
     <div class="clients" id="clients">
         <table class="clients_table_1"> 
             <tr> 
-                <td> 
-                    <img src="image/clients/изображение_viber_2023-11-17_21-15-50-121.png" class="clients_image">
+                <td data-tooltip="I like penguins , i am Mark , I am 28 , I am hardworking guy..."> 
+                    <img src="image/clients/изображение_viber_2023-11-17_21-15-50-121.png" class="clients_image" >
                 </td>
-                <td> 
+                <td data-tooltip="I like small rabbits , I am 29 , i live in Belgium, I like hardworking people..."> 
                     <img src="image/clients/изображение_viber_2023-11-17_21-15-50-504.png" class="clients_image">
                 </td>
-                <td> 
+                <td data-tooltip="I like workihg for free , i live in ParIs ..."> 
                     <img src="image/clients/изображение_viber_2023-11-17_21-15-51-075.png" class="clients_image">
                 </td>
             </tr>
             <tr class= "clients_text_1"> 
                 <td>
-                    <p> Cristiano Ronaldo dos Santos</p>
+                    <p> Mark Doropei </p>
                 </td>
                 <td>
-                    <p> Gaben</p>
+                    <p> Konik Roman</p>
                 </td>
                 <td>
-                    <p> Ilon Mask</p>
+                    <p> Kuharev Ilya </p>
                 </td>
             </tr>
             <tr class="clients_text_2">
@@ -187,9 +193,6 @@
                 <td>
                     <img src="image/clients/canon-inc.-logo-black-and-white.png" class="Canon">
                 </td>
-                <td>
-                    <img src="image/clients/google-logo-9808.png" class="google">
-                </td>
             </tr>
         </table>
     </div>
@@ -216,6 +219,10 @@
             </tr>
         </table>
         <p class="try_now_text3"> By Signing up you agree to our <u> terms & Services. </u> </p>
+    </div>
+    <div>
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0e161edfe20af2b2a09e8ded507b1d12e3c5b4e9cbbcc73cc068f3cbddffeaca&amp;
+        source=constructor" class="map"></iframe>
     </div>
     <div class="footer" id="footer">
         <table>
@@ -286,3 +293,7 @@
     </div>
 </body>
 </html>
+
+
+
+

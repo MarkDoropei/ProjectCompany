@@ -17,7 +17,7 @@ body {
     text-align: center;
     height:50px;
     width:190px;
-    margin-left: 625px;
+    margin-left: 575px;
     font-weight: 900;
 }
 .Header_Try_Now_Text{
@@ -193,12 +193,6 @@ body {
     margin-left:50px;
     margin-top:50px;
 }
-.google{
-    height:100px;
-    width:100px;
-    margin-left:100px;
-    margin-top:50px;
-}
 .Canon{
     width:300px;
     height:100px;
@@ -260,10 +254,10 @@ body {
 }
 .coffee_cup{
     margin-top: 500px;
-    margin-left: 1200px;
+    margin-left: 1100px;
 }
 .earphones{
-    margin-left: 1200px;
+    margin-left: 1100px;
     margin-top: -760px;
 }
 .pen_holder{
@@ -331,5 +325,212 @@ body {
 }
 .footer_image_3{
     margin-left: 170px;
+}
+.map{
+    width: 100%;
+    height:400px;
+}
+[data-tooltip] {
+    position: relative; /* Относительное позиционирование */ 
+   }
+   [data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина подсказки */
+    left: 0; top: 0; /* Положение подсказки */
+    background:cornsilk; /* Синий цвет фона */
+    color: #d6d6d6; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 1s; /* Время появления подсказки */
+    font-family: monospace;
+    margin-left: 78px;
+    border:10px, solid;
+   } 
+   [data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: -2em; /* Положение подсказки */
+   }
+.menu-bar {
+  border-radius: 25px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  padding: 0 10px;
+}
+.menu-bar li {
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 12px 16px;
+  margin: 0 8px;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.menu-bar li::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: 0.2s;
+  border-radius: 25px;
+}
+.menu-bar li:hover {
+  color: black;
+}
+.menu-bar li:hover::before {
+  background: linear-gradient(to bottom, #130006, #d2d1d3);
+  box-shadow: 0px 3px 20px 0px black;
+  transform: scale(1.2);
+} 
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    transition: 1s ease-in-out;
+    border: none ;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #423c3e;
+    border-radius: 30px;
+    color:white;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+.login_1{
+    height:920px;
+    width:100% ;
+    background-color:cornsilk;
+    padding-top: 1px;
+}
+.login_2{
+    height:450px;
+    width:450px;
+    background-color:#fff;
+    border-radius: 20px;
+    margin-left:440px;
+    box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: -80px;
+}
+.login_input_1{
+    height:40px;
+    width:225px;
+    opacity:30;
+    border: none;
+    background-color:#f2f2f2;
+    margin-left:110px;
+}
+.login_input_2{
+    height:40px;
+    width:225px;
+    opacity:30;
+    border: none;
+    background-color:#f2f2f2;
+    margin-left:110px;
+    padding-bottom: 0x;
+}
+.login_p_1{
+    color: #d6d6d6;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+    margin-left: 63px;
+    margin-left:110px;
+}
+.login_p_2{
+    color: #d6d6d6;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+    margin-left: 80px;
+    margin-left:110px;
+}
+.login_button{
+    background-color:darkturquoise;
+    height:40px;
+    width:227px;
+    opacity:30;
+    border: none;
+    color:lightcyan;
+    margin-top:10px;
+    margin-left:110px;
+}
+.login_photo_1{
+    text-align: center;
+    margin-left: 35px;
+    padding-left: 60px;
+}
+.photo_text_3{
+    color: #d6d6d6;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+    margin-left: 110px;
+}
+.login_text_4{
+    color: #d6d6d6;
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+.login_input_3{
+    padding-left:105px;
+}
+.photo_text_5{
+    color: #d6d6d6;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
 }
 
