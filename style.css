@@ -4,22 +4,22 @@ body {
 /*menu bar*/
 .menu-bar {
   border-radius: 25px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  width:1383px;
+  height:100%;
   display: inline-flex;
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   align-items: center;
   padding: 0 10px;
+  margin-left:27px;
 }
 .menu-bar li {
   list-style: none;
   color: white;
   font-family: sans-serif;
   font-weight: bold;
-  padding: 12px 16px;
+  padding: 4px 9px;
   margin: 0 8px;
   position: relative;
   cursor: pointer;
@@ -40,22 +40,11 @@ body {
   color: black;
 }
 .menu-bar li:hover::before {
-  background: linear-gradient(to bottom, #130006, #d2d1d3);
+  background: linear-gradient(to bottom, #ffffff, #d2d1d3);
   box-shadow: 0px 3px 20px 0px black;
   transform: scale(1.2);
 } 
-.container {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+
   .center {
     width: 180px;
     height: 60px;
@@ -100,31 +89,41 @@ body {
     font-weight: 100;
   }
   /*header*/
+.bgvideo{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height:100%;
+    z-index: -9999;
+}
 .header{
     height: 810px;
-    background-image: url(image/header/photo-1433354359170-23a4ae7338c6.jpg);
-    background-image: cover;
+    background-image: url(video/SnapSave.io-Epic\ Caucasus\ Mountains\,\ Elbrus\ region\ seasons\ aerial\ _\ Кавказские\ горы\,\ Эльбрус\ с\ квадрокоптера.mp4);
+    background-image: cover; 
+    z-index:5;
 }
 .Header_H1{
     margin: 0;
     text-align: center;
     padding-top: 225px;
     font-family: 'Exo', sans-serif;
+    z-index:5;
 }
 .Header_Try_Now{
     background-color: #ff6d6d;
     text-align: center;
     height:50px;
     width:190px;
-    margin-left: 575px;
+    margin-left: 635px;
+    border:none;
+    margin-top:20px;
+    color:#ffffff;
+    font-family:'Exo', sans-serif;
     font-weight: 900;
-}
-.Header_Try_Now_Text{
-    text-align: center;
-    font-family: 'Exo', sans-serif;
-    color:white;
-    padding-top: 17px;
-    font-weight: 900;
+    z-index:5;
 }
 .header_text{
     font-family: 'Exo', sans-serif;
@@ -132,11 +131,13 @@ body {
     color: #868789; 
     margin-top: 19px;
     font-weight: 900;
+    z-index:5;
 }
 /*section_1*/
 .selection_1{
     height: 495px;
     background-color: white;
+    
 }
 .selection_1_text1{
     color:#ff6d6d;
@@ -228,7 +229,7 @@ body {
     font-weight:bold; 
 }
 .scale{
-    transition: 1s;
+    transition: 0.5s;
 }
 .scale:hover{
     transform: scale(1.4);
@@ -242,7 +243,7 @@ body {
 .EA{
     height:80px;
     width:180px;
-    margin-left:50px;
+    margin-left:150px;
     margin-top:50px;
 }
 .Canon{
@@ -299,15 +300,14 @@ body {
 }
 /*browser*/
 .browser{
-    height: 759px;
+    height: 679px;
 }
 .browser_text_1{
-    color:#ff6d6d;
+    color:#ffffff;
     font-size:30px;
     font-family: 'Exo', sans-serif;
-    font-weight:bold; 
+    font-weight:900; 
     text-align: center;
-    margin-top: 108px;
 }
 .browser_text_2{
     font-size:40px;
@@ -322,7 +322,7 @@ body {
     text-align: center;
 }
 .browser_image{
-    margin-top: 125px;
+    margin-top: 108px;
     margin-left: 323px;
     z-index: 4;
     position: relative;
@@ -333,10 +333,10 @@ body {
     z-index: 5;
     position: absolute;
     margin-left:348px ;
-    margin-top:170px;
+    margin-top:153px;
 }
 .try_now{
-    height: 467px;
+    height: 380px;
     background-color:#323969;
 }
 .footer{
@@ -494,7 +494,7 @@ body {
     width:450px;
     background-color:#fff;
     border-radius: 20px;
-    margin-left:440px;
+    margin-left:510px;
     box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.5);
     margin-bottom: -80px;
 }
@@ -564,4 +564,109 @@ body {
     color: #d6d6d6;
     font-size: 20px;
     font-family: 'Exo', sans-serif;
+}
+  .background-browser{
+    background: linear-gradient(-45deg, #ffffff, #e73c7e, #23a6d5, #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.register_form{
+    background: linear-gradient(-180deg, #7b45b7, #36b5d8);
+    height:770px;
+    width:100%;
+    padding-top: 1px;
+}
+.register_form_2{
+    width:350px;
+    height:385px;
+    background-color:#2a2a68;
+    border-radius: 20px;
+    margin-top:90px;
+    margin-left:575px;
+    box-shadow: 0px 1px 3px 0px black;
+}
+.register_input{
+    border-radius: 5px;
+    border:none;
+    font-family:sans-serif;
+    width:300px;
+    height:33px;
+    margin-left:23px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.register_input_1{
+    border-radius: 5px;
+    border:none;
+    font-family:sans-serif;
+    width:300px;
+    height:33px;
+    margin-left:23px;
+    margin-top:30px;
+    margin-bottom:15px;
+    box-shadow: 0px 1px 3px 0px black;
+}
+.register_button{
+    height:40px;
+    width:250px;
+    box-shadow: 0px 1px 3px 0px black;
+    border-radius:7px;
+    margin-left:50px;
+    margin-top:30px;
+    border:none;
+    font-family:sans-serif;
+    background-color: chartreuse;
+    font-weight: 900;
+}
+.register_text{
+    font-family:sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+    font-size:50px;
+}
+.clients_tooltip[data-tooltip]{
+    color:#36b5d8;
+    z-index:6;
+}
+.copy{
+    font-family: sans-serif;
+    color:black;
+    margin-left: 174px;
+}
+.try_now_foto{
+    height:800px;
+    width:600px;
+    margin-left:750px;
+    margin-top:-500px;
+}
+.try_now_text{
+    font-family: sans-serif;
+    color:#000000;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 200px;
+    margin-top: 175px;
+}
+.About_me_button{
+    height:100px;
+    width:400px;
+    background-color:chartreuse;
+    font-weight: 900;
+    font-size:40px;
+    margin-left:190px;
+    margin-top:50px;
+    border-radius: 20px;
+    border:linear  30px  red;
 }

@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Завершить </h1>
-    <form action="finish.html" method="get"> 
-        <button>Завершить регистрацию</button>
-    </form>
-    <h1> Отмена </h1>
-    <form action="index.html" method="get"> 
-        <button>Назад</button>
-    </form>
+<div id="survey-form" class="register_form">
+  <p class="register_text">WELCOME</p>
+  <div class="register_form_2">
+      <input id="name" type="text" required placeholder="Enter your name" class="register_input_1"> <br>
+      <input id="email" type="email" required placeholder="Enter your Email" class="register_input"> <br>
+      <input id="password" type="password" required placeholder="Enter your password" class="register_input"> <br>
+      <input id="password" type="password" required placeholder="Repeat your password" class="register_input"> <br>
+      <form action="index.html" method="get"> 
+      <button class="register_button">Continue</button>
+      </form>
+  </div>
+</div>
 </body>
 </html>

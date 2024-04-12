@@ -13,29 +13,33 @@
 <body>
     <div class="menu"> 
         <nav>
-            <ul class="menu-bar">
-                <li><a href="#header">header</a></li>
-                <li><a href="#section_1">section_1</a></li>
-                <li><a href="#section_2">section_2</a></li>
-                <li><a href="#descriptions">descriptions</a></li>
-                <li><a href="#clients">clients</a></li>
-                <li><a href="#browser">browser</a></li>
-                <li><a href="#try_now">try_now</a></li>
-                <li><a href="#footer">footer</a></li>
-                <form action="login.html"  method="get" > 
+            <ul class="menu-bar" >
+                <li><a href="#section_1" style="text-decoration: none; ">There is no other...</a></li>
+                <li><a href="#section_2" style="text-decoration: none; ">Some features</a></li>
+                <li><a href="#descriptions" style="text-decoration: none; ">About design</a></li>
+                <li><a href="#clients" style="text-decoration: none; ">Users</a></li>
+                <li><a href="#browser" style="text-decoration: none; ">More features</a></li>
+                <li><a href="#try_now" style="text-decoration: none; ">Choice of disegners</a></li>
+                <li><a href="#footer" style="text-decoration: none; ">Help page</a></li>
+                <li><form action="login.html"  method="get" > 
                     <button class="btn">Enter</button>
-                </form>
-                <form action="register.html" method="get"> 
+                </form></li>
+                <li><form action="register.html" method="get"> 
                     <button class="btn">Registration</button>
-                </form>
+                </form></li>
             </ul>
         </nav>
     </div>
     <div class="header" id="header">
+        <video autoplay loop muted class="bgvideo" id="bgvideo">
+            <source src="video/SnapSave.io-Epic Caucasus Mountains, Elbrus region seasons aerial _ Кавказские горы, Эльбрус с квадрокоптера.mp4" type="video/mp4"></source>
+           </video>
         <h1 class="Header_H1">There is no other <br> 
             platforms for you as like 
         </h1>
-    <div class="Header_Try_Now"> <p class="Header_Try_Now_Text"> TRY NOW</p></div>
+    <form action="TRY_NOW.html" method="get">
+    <button class="Header_Try_Now">About me</button>
+    </form>
         <p class="header_text"> <sup> *</sup> No need to add cards details</p>
     </div>
     <div class="section_1" id="section_1">
@@ -55,7 +59,7 @@
                 </p>
             </td>
             <td colspan="1">
-                <img src="image/section_1/mountainpng-small.png" alt="горы" class="selection_1_picture">
+                <img src="image/section_1/Weisskopf_Seeadler_haliaeetus_leucocephalus_9_amk.jpg" alt="горы" class="selection_1_picture">
             </td>
         </table>
     </div>
@@ -126,13 +130,13 @@
     <div class="clients" id="clients">
         <table class="clients_table_1"> 
             <tr> 
-                <td data-tooltip="I like penguins , i am Mark , I am 28 , I am hardworking guy..."> 
+                <td class="clients_tooltip" data-tooltip="I like penguins , i am Mark , I am 28 , I am hardworking guy..."> 
                     <img src="image/clients/изображение_viber_2023-11-17_21-15-50-121.png" class="clients_image" >
                 </td>
-                <td data-tooltip="I like small rabbits , I am 29 , i live in Belgium, I like hardworking people..."> 
+                <td  class="clients_tooltip" data-tooltip="I like small rabbits , I am 29 , i live in Belgium, I like hardworking people..."> 
                     <img src="image/clients/изображение_viber_2023-11-17_21-15-50-504.png" class="clients_image">
                 </td>
-                <td data-tooltip="I like workihg for free , i live in ParIs ..."> 
+                <td  class="clients_tooltip" data-tooltip="I like workihg for free , i live in ParIs ..."> 
                     <img src="image/clients/изображение_viber_2023-11-17_21-15-51-075.png" class="clients_image">
                 </td>
             </tr>
@@ -141,7 +145,7 @@
                     <p> Mark Doropei </p>
                 </td>
                 <td>
-                    <p> Konik Roman</p>
+                    <p> Konik Roman </p>
                 </td>
                 <td>
                     <p> Kuharev Ilya </p>
@@ -200,13 +204,10 @@
             </tr>
         </table>
     </div>
-    <div class="browser" id="browser">
-        <p class="browser_text_1">
-            NEW FEATURES
-        </p>
+    <div class="browser  background-browser" id="browser">
         <p class="browser_text_2"> Some awesone features</p>
         <p class="browser_text_3"> Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br>
-             Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. <br>
+            Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. <br>
             Etiasem malesuada magn. Vestibulum felis euismod semper.
         </p>
         <img src="image/descriptions/15b552e9ee3dd5f255c27631ac97e6f4.png" class="browser_image_2">
@@ -217,10 +218,10 @@
         <p class="try_now_text2"> Over 1000 designers are using ... </p>
         <table>
             <tr>
-                <td> <input type="text" value="FULL NAME" class="input_FULL_NAME"> </td> 
-                <td> <input type="email" value="YOUR EMAIL" class="input_EMAIL"> </td>
-                <td> <input type="password" value="PASSWORD" class="input_PASSWORD"> </td>
-                <td> <form method="get" action="TRY_NOW.html"> <button type="submit" class="try_now_button"> TRY NOW </button> </form> </td>
+                <td> <input type="text" placeholder="FULL NAME" class="input_FULL_NAME"> </td> 
+                <td> <input type="email" placeholder="YOUR EMAIL" class="input_EMAIL"> </td>
+                <td> <input type="password" placeholder="PASSWORD" class="input_PASSWORD"> </td>
+                <td> <form method="get" placeholder="TRY_NOW.html"> <button type="submit" class="try_now_button"> TRY NOW </button> </form> </td>
             </tr>
         </table>
         <p class="try_now_text3"> By Signing up you agree to our <u> terms & Services. </u> </p>
@@ -265,7 +266,7 @@
                     </a>
                 </td>
                 <td rowspan="2">
-                    <input type="email" value="email" class="footer_input_1">
+                    <input type="email" placeholder="email" class="footer_input_1">
                 </td>
             </tr>
             <tr>
@@ -295,6 +296,7 @@
                 </td>
             </tr>
         </table>
+        <p class="copy">2024 Mark Doropei &copy</p>
     </div>
 </body>
 </html>
