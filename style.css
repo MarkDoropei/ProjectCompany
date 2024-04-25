@@ -3,55 +3,55 @@ body {
 }
 /*menu bar*/
 .menu-bar {
-  border-radius: 25px;
-  width:1383px;
-  height:100%;
-  display: inline-flex;
-  background-color: rgba(0, 0, 0, 0.4);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  align-items: center;
-  padding: 0 10px;
-  margin-left:27px;
+    border-radius: 25px;
+    width:1383px;
+    height:100%;
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    padding: 0 10px;
+    margin-left:27px;
+}
+.menu-bar li:hover{
+    color:black;
 }
 .menu-bar li {
-  list-style: none;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  padding: 4px 9px;
-  margin: 0 8px;
-  position: relative;
-  cursor: pointer;
-  white-space: nowrap;
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 4px 9px;
+    margin: 0 8px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
 }
 .menu-bar li::before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  transition: 0.2s;
-  border-radius: 25px;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: 0.2s;
+    border-radius: 25px;
 }
 .menu-bar li:hover {
-  color: black;
+    color: black;
 }
 .menu-bar li:hover::before {
-  background: linear-gradient(to bottom, #ffffff, #d2d1d3);
-  box-shadow: 0px 3px 20px 0px black;
-  transform: scale(1.2);
-} 
-
-  .center {
+    background: linear-gradient(to bottom, #ffffff, #d2d1d3);
+    box-shadow: 0px 3px 20px 0px black;
+    transform: scale(1.2);
+}
+.center {
     width: 180px;
     height: 60px;
     position: absolute;
-  }
-  
-  .btn {
+}
+.btn {
     width: 180px;
     height: 60px;
     cursor: pointer;
@@ -59,37 +59,20 @@ body {
     outline: none;
     transition: 1s ease-in-out;
     border: none ;
-  }
-  
-  svg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    fill: none;
-    stroke: #fff;
-    stroke-dasharray: 150 480;
-    stroke-dashoffset: 150;
-    transition: 1s ease-in-out;
-  }
-  
-  .btn:hover {
+}
+.btn:hover {
     transition: 1s ease-in-out;
     background: #423c3e;
     border-radius: 30px;
     color:white;
-  }
-  
-  .btn:hover svg {
-    stroke-dashoffset: -480;
-  }
-  
-  .btn span {
+}
+.btn span {
     color: white;
     font-size: 18px;
     font-weight: 100;
-  }
+}
   /*header*/
-.bgvideo{
+  .bgvideo{
     position:absolute;
     right: 0;
     bottom: 0;
@@ -102,7 +85,6 @@ body {
 .header{
     height: 810px;
     background-image: url(video/SnapSave.io-Epic\ Caucasus\ Mountains\,\ Elbrus\ region\ seasons\ aerial\ _\ Кавказские\ горы\,\ Эльбрус\ с\ квадрокоптера.mp4);
-    background-image: cover; 
     z-index:5;
 }
 .Header_H1{
@@ -127,8 +109,8 @@ body {
 }
 .header_text{
     font-family: 'Exo', sans-serif;
-    text-align: center; 
-    color: #868789; 
+    text-align: center;
+    color: #868789;
     margin-top: 19px;
     font-weight: 900;
     z-index:5;
@@ -137,7 +119,6 @@ body {
 .selection_1{
     height: 495px;
     background-color: white;
-    
 }
 .selection_1_text1{
     color:#ff6d6d;
@@ -160,7 +141,7 @@ body {
     font-family: 'Exo', sans-serif;
     margin-left:150px;
     font-size:16px;
-    font-weight:bold; 
+    font-weight:bold;
 }
 .selection_1_text4{
     color:black;
@@ -174,7 +155,7 @@ body {
     width:568px;
     margin-left: 120px;
     margin-top: 100px;
-} 
+}
 /*section_2*/
 .selection_2{
     height: 674px;
@@ -194,10 +175,45 @@ body {
     font-weight: 900;
     font-family: 'Exo', sans-serif;
 }
+.coffee_cup{
+    margin-top: 500px;
+    margin-left: 1100px;
+}
+.earphones{
+    margin-left: 1100px;
+    margin-top: -760px;
+}
+.pen_holder{
+    margin-top: -260px;
+}
+.section_2_picture_1{
+    margin-left: 270px;
+}
+.section_2_picture_2{
+    margin-left: 270px;
+}
+.section_2_picture_3{
+    margin-left: 270px;
+}
+.section_2_text_1{
+    font-family: 'Exo', sans-serif;
+    font-weight:900;
+    text-align: center;
+    margin-left: 150px;
+}
+.section_2_text_2{
+    font-family: 'Exo', sans-serif;
+    font-weight:500;
+    text-align: center;
+    margin-left: 150px;
+}
+.table_section_2{
+    margin-top: -60px;
+}
 /*clients*/
-.clients{ 
+.clients{
     height: 648px;
-    background-image: url(image/clients/Rectangle\ 26.png);
+    background-image: url(image/clients/clients_background_image.png);
 }
 .clients_table_1{
     width:100%;
@@ -213,20 +229,20 @@ body {
     color:white;
     text-align: center;
     font-family: 'Exo', sans-serif;
-    font-weight:bold; 
+    font-weight:bold;
 }
 .clients_text_2{
     text-align: center;
     font-family: 'Exo', sans-serif;
-    font-weight:bold; 
+    font-weight:bold;
     color:#ff6d6d;
     padding-top:20px;
-} 
+}
 .clients_text_3{
     color:white;
     text-align: center;
     font-family: 'Exo', sans-serif;
-    font-weight:bold; 
+    font-weight:bold;
 }
 .scale{
     transition: 0.5s;
@@ -258,6 +274,46 @@ body {
     margin-left:100px;
     margin-top:50px;
 }
+[data-tooltip] {
+    position: relative;
+   /* Относительное позиционирование */
+}
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+   /* Выводим текст */
+    position: absolute;
+   /* Абсолютное позиционирование */
+    width: 300px;
+   /* Ширина подсказки */
+    left: 0;
+    top: 0;
+   /* Положение подсказки */
+    background:cornsilk;
+   /* Синий цвет фона */
+    color: #d6d6d6;
+   /* Цвет текста */
+    padding: 0.5em;
+   /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+   /* Параметры тени */
+    opacity: 0;
+   /* Подсказка невидима */
+    transition: 1s;
+   /* Время появления подсказки */
+    font-family: monospace;
+    margin-left: 78px;
+    border:1px solid;
+}
+[data-tooltip]:hover::after {
+    opacity: 1;
+   /* Показываем подсказку */
+    top: -2em;
+   /* Положение подсказки */
+}
+.clients_tooltip[data-tooltip]{
+    color:#36b5d8;
+    z-index:6;
+}
 /*descriptions*/
 .descpritions{
     height: 550px;
@@ -277,26 +333,24 @@ body {
     z-index: 4;
     margin-left:160px;
     margin-top:86px;
-
 }
 .descriptions_text_1{
     color:#ff6d6d;
     font-size:30px;
     font-family: 'Exo', sans-serif;
-    font-weight:bold; 
-
+    font-weight:bold;
 }
 .descriptions_text_2{
     font-size:40px;
     font-family: 'Exo', sans-serif;
     margin-top:0px;
-    font-weight:bold; 
+    font-weight:bold;
 }
 .descriptions_text_3{
     font-size:16px;
     font-family: 'Exo', sans-serif;
     margin-top:0px;
-    font-weight:bold; 
+    font-weight:bold;
 }
 /*browser*/
 .browser{
@@ -306,19 +360,19 @@ body {
     color:#ffffff;
     font-size:30px;
     font-family: 'Exo', sans-serif;
-    font-weight:900; 
+    font-weight:900;
     text-align: center;
 }
 .browser_text_2{
     font-size:40px;
     font-family: 'Exo', sans-serif;
-    font-weight:bold; 
+    font-weight:bold;
     text-align: center;
 }
 .browser_text_3{
     font-size:20px;
     font-family: 'Exo', sans-serif;
-    font-weight:bold; 
+    font-weight:bold;
     text-align: center;
 }
 .browser_image{
@@ -335,17 +389,31 @@ body {
     margin-left:348px ;
     margin-top:153px;
 }
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+   }
+    50% {
+        background-position: 100% 50%;
+   }
+    100% {
+        background-position: 0% 50%;
+   }
+}
+.background-browser{
+    background: linear-gradient(-45deg, #ffffff, #e73c7e, #23a6d5, #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+/*New features or Try now*/
 .try_now{
     height: 380px;
     background-color:#323969;
 }
-.footer{
-    height: 334px;
-}
 .try_now_text1{
     text-align: center;
     font-family: 'Exo', sans-serif;
-    font-weight:bold; 
+    font-weight:bold;
     color:#ff6d6d;
     padding-top:85px;
 }
@@ -353,7 +421,7 @@ body {
     color:white;
     text-align: center;
     font-family: 'Exo', sans-serif;
-    font-weight:bold;  
+    font-weight:bold;
     font-size: 45px;
     margin-top:0px;
 }
@@ -371,51 +439,20 @@ body {
     font-family: 'Exo', sans-serif;
     margin-left:150px;
     font-size:13px;
-    font-weight:bold;  
+    font-weight:bold;
     color:white;
     width: 180px;
 }
 .try_now_text3{
     color:#a8aabc;
     font-family: 'Exo', sans-serif;
-    font-weight:bold;  
+    font-weight:bold;
     text-align: center;
     margin-top: 50px;
 }
-.coffee_cup{
-    margin-top: 500px;
-    margin-left: 1100px;
-}
-.earphones{
-    margin-left: 1100px;
-    margin-top: -760px;
-}
-.pen_holder{
-    margin-top: -260px;
-}
-.section_2_picture_1{
-    margin-left: 270px;
-}
-.section_2_picture_2{
-    margin-left: 270px;
-}
-.section_2_picture_3{
-    margin-left: 270px;
-}
-.section_2_text_1{
-    font-family: 'Exo', sans-serif;
-    font-weight:900;  
-    text-align: center;
-    margin-left: 150px;
-}
-.section_2_text_2{
-    font-family: 'Exo', sans-serif;
-    font-weight:500;  
-    text-align: center;
-    margin-left: 150px;
-}
-.table_section_2{
-    margin-top: -60px;
+/*Footer*/
+.footer{
+    height: 334px;
 }
 .footer_image_1{
     margin-top:75px;
@@ -460,30 +497,13 @@ body {
     width: 100%;
     height:400px;
 }
-[data-tooltip] {
-    position: relative; /* Относительное позиционирование */ 
-   }
-   [data-tooltip]::after {
-    content: attr(data-tooltip); /* Выводим текст */
-    position: absolute; /* Абсолютное позиционирование */
-    width: 300px; /* Ширина подсказки */
-    left: 0; top: 0; /* Положение подсказки */
-    background:cornsilk; /* Синий цвет фона */
-    color: #d6d6d6; /* Цвет текста */
-    padding: 0.5em; /* Поля вокруг текста */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
-    pointer-events: none; /* Подсказка */
-    opacity: 0; /* Подсказка невидима */
-    transition: 1s; /* Время появления подсказки */
-    font-family: monospace;
-    margin-left: 78px;
-    border:10px, solid;
-   } 
-   [data-tooltip]:hover::after {
-    opacity: 1; /* Показываем подсказку */
-    top: -2em; /* Положение подсказки */
-   }
-   .login_1{
+.copy{
+    font-family: sans-serif;
+    color:black;
+    margin-left: 174px;
+}
+/*login*/
+.login_1{
     height:920px;
     width:100% ;
     background-color:cornsilk;
@@ -501,7 +521,7 @@ body {
 .login_input_1{
     height:40px;
     width:225px;
-    opacity:30;
+    opacity:1;
     border: none;
     background-color:#f2f2f2;
     margin-left:110px;
@@ -509,11 +529,11 @@ body {
 .login_input_2{
     height:40px;
     width:225px;
-    opacity:30;
+    opacity:1;
     border: none;
     background-color:#f2f2f2;
     margin-left:110px;
-    padding-bottom: 0x;
+    padding-bottom: 0px;
 }
 .login_p_1{
     color: #d6d6d6;
@@ -533,7 +553,7 @@ body {
     background-color:darkturquoise;
     height:40px;
     width:227px;
-    opacity:30;
+    opacity:1;
     border: none;
     color:lightcyan;
     margin-top:10px;
@@ -565,22 +585,7 @@ body {
     font-size: 20px;
     font-family: 'Exo', sans-serif;
 }
-  .background-browser{
-    background: linear-gradient(-45deg, #ffffff, #e73c7e, #23a6d5, #000000);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
+/*register form*/
 .register_form{
     background: linear-gradient(-180deg, #7b45b7, #36b5d8);
     height:770px;
@@ -636,15 +641,7 @@ body {
     margin-top: 50px;
     font-size:50px;
 }
-.clients_tooltip[data-tooltip]{
-    color:#36b5d8;
-    z-index:6;
-}
-.copy{
-    font-family: sans-serif;
-    color:black;
-    margin-left: 174px;
-}
+/*About me*/
 .try_now_foto{
     height:800px;
     width:600px;
@@ -668,5 +665,4 @@ body {
     margin-left:190px;
     margin-top:50px;
     border-radius: 20px;
-    border:linear  30px  red;
 }
